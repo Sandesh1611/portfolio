@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin-left: 3%;
+    padding: 5;
+    box-sizing: content-box;
+}
+
+header {
+    background-color: #695c03;
+    color: #ccc2c2;
+    padding: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+
+.profile-image img {
+    border-radius: 60%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.intro {
+    margin-left: 50px;
+}
+
+.contact,
+.projects,
+.resume {
+    padding: 1em;
+}
+
+.contact p,
+.projects .project p,
+.resume p {
+    margin-left: 1%;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
